@@ -1,10 +1,10 @@
 import * as React from 'react'
 import './index.css'
 
-interface Props {
+export type ExampleComponentProps = {
   text: string
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={`bg-red-50 pis-8 plb-10`}>Example: {text}</div>
+export const ExampleComponent = ({ text }: ExampleComponentProps) => {
+  return <div className='bg-red-50 pis-8 plb-10'>Example: {text}</div>
 }
