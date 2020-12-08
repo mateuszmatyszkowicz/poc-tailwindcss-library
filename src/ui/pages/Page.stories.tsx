@@ -1,13 +1,13 @@
 import React from 'react';
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
-import { Story, Meta } from '@storybook/react/types-6-0';
+import { Story, Meta } from '@storybook/react/types-6-0'
 
-import { Page, PageProps } from '../pages/Page';
-import * as HeaderStories from '../molecules/Header.stories';
+import { Page, PageProps } from '../pages/Page'
+import * as HeaderStories from '../molecules/Header.stories'
 
 export default {
   title: 'Pages/Page',
-  component: Page,
+  component: Page
 } as Meta;
 
 const Template: Story<PageProps> = (args) => <Page {...args} />;

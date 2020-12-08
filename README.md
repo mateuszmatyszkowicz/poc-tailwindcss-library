@@ -25,6 +25,14 @@ class Example extends Component {
 }
 ```
 
+# TODO
+
+  * Purge for production
+  * Establish a styleguide
+  * Icons component svg
+
+
+
 ## License
 
 MIT © [mateuszmatyszkowicz](https://github.com/mateuszmatyszkowicz)
